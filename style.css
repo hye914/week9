@@ -1,0 +1,107 @@
+/* 마진과 패팅을 없애고, 모두 border-box로 바꿔주는 코드*/
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+.cal{
+    width: 370px;
+    height:570px;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding : 10px 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(193, 114, 191);
+}
+
+.row{
+    width: 360px;
+    height:100px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 70px;
+}
+
+#result {
+    width: 335px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+#n1,#n2,#n3,#n4,#n5,#n6,#n7,#n8,#n9,#n0{
+    width:80px;
+    height:90px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#op_plus,#op_sub,#op_mul{
+    width:80px;
+    height:90px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+#op_result{
+    width:165px;
+    height:90px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+
+#dot{
+    width:80px;
+    height:90px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(255, 145, 43);
+}
+
+#op_clr{
+    width:250px;
+    height:50px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    background-color: red;
+    margin-right: 7px;
+}
+
+#op_div{
+    width:80px;
+    height:50px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+.result{
+    width:370px;
+}
